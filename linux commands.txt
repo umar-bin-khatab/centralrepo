@@ -1,0 +1,115 @@
+1. cat file 
+2. cat >file
+3. cat >>file
+4. cat file1>file2
+5. cat file1 file2>myfile
+6. touch file
+6.1. touch .file
+7. touch -a
+8. touch -m
+9. touch file1 file2 file3 file4
+10. stat file
+11. vi file
+12. :wq , :w ,:q ,q!
+13. nano file
+13.1 echo "code">file
+13.2 echo "code">>file
+14. ls 
+15. ls -l
+16. ls -a
+17. history
+18. mkdir dir
+19. mkdir -p dir1/dir2/dir3
+20. mkdir dir1 dir2 dir3
+21. cd dir
+22. cd dir1/dir2/dir3
+23. cd ..
+24. cd ../../..
+25. mkdir .dir
+26. cp file1 file2
+27. mv file1 file2
+28. mv file dir
+29. rm -rf
+30. rm dir
+31. less file
+32. head file
+33. tail file
+34. hostname
+35. yum install httpd
+36. yum remove httpd
+37. yum update httpd
+38. service httpd start
+39. service httpd stop
+40. service httpd status
+41. chkconfig httpd on
+42. chkconfig httpd off
+43. which 
+44. whoami
+45. yum list installed
+46. yum install tree
+47. yum install git
+48. grep "word"
+49. sort file (A to Z)
+50. sort -r file (Z to A, 9-0)
+51. sort -n file (A to Z, 0-9)
+52. sort -nr file (9-0, Z to A)
+53. useradd <name>
+54. cat /etc/passwd (To check user will be created or not)
+55. groupadd <enter group name>
+56. gpasswd -a (To add single user)
+57. gpasswd -M (To add multiple user)
+58. cat /etc/group (To check group will be created or not)
+59. ln (To create hardlink)
+60. ln -s (To create softlink)
+61. tar -cvf <file name>
+62. tar -xvf <file name>
+63. gzip <file name>
+64. gunzip <file name>
+65. wget <url> (to download file from internet)
+66. chmod 777 <file name>
+67. chown <enter new name> <enter old name>
+68. chgrp <enter new name> <enter old name>
+69. git -v
+70. git config --global user.name "enter user name"
+71. git config --global user.email "enter mail"
+72. git config --list
+73. git init
+74. git config --global init.default Branch <name>
+75. git status
+76. git add . or <enter file name they want to commit>
+78. git commit -m "commit massage"
+79. git log 
+80. git show <commit id>
+81. git remote add origin <central git URL>
+82. git push -u origin master
+83. git pull -u origin master
+84. git remote rm origin
+85. cd ~/.ssh 
+86. ssh -keygen
+87. cat ~/.ssh/id rsa.pub
+88. ssh -T git@github.com
+89. git log -1/2/3
+90. git log --oneline
+91. git log --grep "ignore"
+92. git branch
+93. git branch <enter branch name>
+94. git checkout <enter branch name they want to switch the branch>
+95. git branch -d <enter branch name who want to delete branch>
+96. git branch -D <enter branch name who want to delete forcefully branch>
+97. git merge <branch name> (merge to master branch)
+98. git stash
+99. git stash list
+100. git stash apply stash@{0/1/2/3/4....}
+101. git stash clear
+102. git reset <file name>
+103. git reset .
+104. git reset --hard
+105. git revert <commit id>
+106. git clean -n (to remove untracked file)   
+107. git clean -f (to remove forcefully untracked file)
+108. git tag -a <tag name> -m <massage> <commit id>
+109. git tag
+110. git show <tag name>
+111. git tag -d <enter tag name they want to delete the tag>
+112. git clone <url of github repo.>
+113.    
